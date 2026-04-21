@@ -1,7 +1,7 @@
 ### 0. download/git clone and run
-`cd JsonParser\JsonParser`
-`dotnet build`
-`dotnet run`
+- `cd JsonParser\JsonParser`
+- `dotnet build`
+- `dotnet run` 
 
 ### 1. Paste large json file as
 ``` c#
