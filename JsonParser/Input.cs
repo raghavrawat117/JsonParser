@@ -2,7 +2,19 @@ namespace JsonParser
 {
     public static class Input
     {
-        public static string json =@"[
+        public static string FileAsString(string filePath)
+        {
+            return System.IO.File.ReadAllText(filePath);
+        }
+        // public static string StringInput = @"";
+        // public static string StringJson = @"";
+        public static string StringInput = @"
+        Item1
+        Item2
+        Item3
+        Item4";
+
+        public static string StringJson = @"[
     {
         ""propertyA"": ""000000000"",
         ""propertyA"": 123,
